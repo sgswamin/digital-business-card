@@ -10,13 +10,13 @@ html {
 
 .card {
   background-color: white;
-  padding: 0px;
+  padding: 10px;
   border-radius: 10px;
   width: 80%;
   min-width: 300px;
   max-width: 600px;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr 1fr;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
